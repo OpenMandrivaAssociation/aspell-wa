@@ -48,7 +48,7 @@ Avou ci chal vos ploz croidjî tos vos tecses sicrîts e rfondou walon.
 %make
 
 %install
-rm -fr $RPM_BUILD_ROOT
+rm -fr %{buildroot}
 
 %makeinstall_std
 
@@ -56,7 +56,7 @@ mv README README.%{languagecode}
 chmod 644 Copyright README* doc/*
 
 %clean
-rm -fr $RPM_BUILD_ROOT
+rm -fr %{buildroot}
 
 %files
 %defattr(-,root,root)
