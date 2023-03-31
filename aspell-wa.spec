@@ -10,7 +10,7 @@ Summary:	%{languageenglazy} files for aspell
 Summary(wa):	Coridjrece aspell e walon
 Name:		aspell-%{languagecode}
 Version:	0.50.0
-Release:	22
+Release:	23
 Group:		System/Internationalization
 License:	GPLv2
 Url:		http://aspell.net/
